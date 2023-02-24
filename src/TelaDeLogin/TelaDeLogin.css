@@ -1,0 +1,159 @@
+     
+    
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../assets/kidsEstudy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+
+}
+
+
+
+
+.container{
+
+
+
+
+    background-color:  white;
+    width: 420px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px 90px;
+    margin-top: 7vh;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 4vh;
+    opacity: 0.9;
+
+
+
+}
+
+.container .header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 130px;
+   
+
+}
+
+.container .header span{
+    padding-top: 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:20px; 
+}
+
+.container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container form .inputcontainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.container from .inputcontainer label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.container form .inputcontainer input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    width: 250px;
+    height: 41px;
+
+    border: 1px solid blue;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    
+    width: 250px;
+    height: 29px;
+
+    background: #4763E4;
+    border-radius: 12px;
+    
+    color: white;
+    font-size: 16px;
+
+
+
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.img{
+    width: 20px;
+    height: 10px;
+    
+   
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 12px;    
+    margin-left: 0.8%;
+}
+
+.container form .botao:hover{
+    cursor: pointer;
+    
+    background-color: #007FFF;
+    transition: .8s;
+}
+
+.container form .final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 9px;
+    width: 400px;
+}
+
+a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #007FFF;
+    
+}
+
